@@ -36,12 +36,40 @@ nb-configuration.xml
 # Mac
 .DS_Store
 
-# Maven
-log/
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
+# Gradle
+# ------
+.gradle
+/build
+/*/build
+/*/*/build
+/*/*/*/build
+/*/*/*/*/build
+/*/docs/src/samples/**/build
+/*/docs/src/snippets/**/build
+/*/internal-android-performance-testing/build-android-libs
+test-splits/
+
+# IDEA
+# ----
+!/.idea
+/.idea/*
+!/.idea/codeStyles
+!/.idea/inspectionProfiles
+!/.idea/icon.png
+!/.idea/icon_dark.png
+*/**/.idea
+*/**/.shelf
+.shelf
+/*.iml
+/*/*.iml
+/*/*/*.iml
+/*/*/*/*.iml
+/*/*/*/*/*.iml
+/out
+/*/out
+/*/*/out
+/*/*/*/out
+/*/*/*/*/out
+/.teamcity/target
+/gradle.ipr
+/gradle.iws
